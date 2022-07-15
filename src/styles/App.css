@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(65, 59, 53, 0.651);
+}
+.piece {
+  position:absolute;
+  height: 12.5%;
+  width: 12.5%;
+}
+.top {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+}
+.right {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  width: 25%;
+  height: 90%;
+}
+.center {
+  position: absolute;
+  height: 100%;
+  width: 75%;
+}
+.board-big {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+}
+.board-little {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  height: 0;
+  width: 80%;
+  padding-bottom: 80%;
+}
+.dot {
+  position:absolute;
+  top: 40%;
+  left: 40%;
+  height: 20%;
+  width: 20%;
+}
+.square-light {
+  position:absolute;
+  height: 12.5%;
+  width: 12.5%;
+  background-color:burlywood;
+}
+.square-dark {
+  position:absolute;
+  height: 12.5%;
+  width: 12.5%;
+  background-color:rgb(146, 98, 35);
+}
+.square-lit {
+  position:absolute;
+  height: 12.5%;
+  width: 12.5%;
+  background-color:rgb(72, 216, 99);
+}
+
+.game {
+  position: relative;
+  top: 10%;
+  height: 90%;
+  width: 100%;
+  align-items: center;
+}
